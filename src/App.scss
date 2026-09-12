@@ -47,11 +47,6 @@ body {
     box-shadow: 0 0.75rem 1.5rem rgba(60, 40, 15, 0.18);
 }
 
-.home-card {
-    max-width: 720px;
-    padding: 3rem;
-}
-
 .welcome-icon {
     font-size: 3rem;
     margin-bottom: 1rem;
@@ -61,10 +56,6 @@ body {
     color: $color-blue;
     font-weight: bold;
     margin-bottom: 0.75rem;
-}
-
-.home-text {
-    color: $color-text;
 }
 
 .section-title {
@@ -222,7 +213,7 @@ body {
         color: white;
     }
 }
-
+// Panel de las pistas
 .hint-panel {
     background-color: #f3e4bf;
     border: 1px solid $color-border;
@@ -262,15 +253,11 @@ body {
 .game-modal {
     width: 100%;
     max-width: 500px;
-
     background-color: $color-card;
     border: 1px solid $color-border;
     border-radius: 1rem;
-
     padding: 2rem;
-
     text-align: center;
-
     box-shadow: 0 0.5rem 2rem rgba(60, 40, 15, 0.3);
 }
 
@@ -373,9 +360,6 @@ body {
         color: white;
     }
 }
-
-
-
 
 
 

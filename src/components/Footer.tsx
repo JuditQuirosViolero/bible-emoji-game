@@ -3,7 +3,7 @@ const Footer = () => {
         <footer className="game-footer">
             <div className="container py-3 text-center">
                 <small>
-                    Aprende, juega y celebra cada hallazgo.
+                    Aprende de la Biblia mientras juegas.
                 </small>
             </div>
         </footer>

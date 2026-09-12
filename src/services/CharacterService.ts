@@ -1,7 +1,7 @@
 import personajes from "../data/Character.json";
 import type { Personaje } from "../types/Character";
 
-type Dificultad =  "normal" | "facil" | "medio" | "dificil";
+type Dificultad = "normal" | "facil" | "medio" | "dificil";
 
 const obtenerNivel = (
     tipo: "nino" | "adulto",
@@ -20,7 +20,12 @@ export const obtenerPersonajes = (): Personaje[] => {
     return personajes as Personaje[];
 };
 
-// TO DO: comprobar que no salga 2 veces el mismo personaje en la misma ronda
+// Personajes que han aparecido recientemente
+const historialPersonajes: string[] = [];
+
+// Máximo de personajes que recordamos
+const MAX_HISTORIAL = 20;
+
 export const obtenerPersonajeAleatorio = (
     tipo: "nino" | "adulto",
     dificultad: Dificultad
@@ -37,9 +42,36 @@ export const obtenerPersonajeAleatorio = (
         );
     }
 
-    const indiceAleatorio = Math.floor(
-        Math.random() * personajesDisponibles.length
+    // Evitamos personajes que hayan aparecido recientemente
+    let personajesSinRepetir = personajesDisponibles.filter(
+        (personaje) => !historialPersonajes.includes(personaje.personaje)
     );
 
-    return personajesDisponibles[indiceAleatorio];
+    // Si no quedan personajes disponibles, permitimos
+    // reutilizar los más antiguos del historial
+    if (personajesSinRepetir.length === 0) {
+        const historialReciente = historialPersonajes.slice(
+            -Math.floor(MAX_HISTORIAL / 2)
+        );
+
+        personajesSinRepetir = personajesDisponibles.filter(
+            (personaje) => !historialReciente.includes(personaje.personaje)
+        );
+    }
+
+    const indiceAleatorio = Math.floor(
+        Math.random() * personajesSinRepetir.length
+    );
+
+    const personajeElegido = personajesSinRepetir[indiceAleatorio];
+
+    // Guardamos el personaje
+    historialPersonajes.push(personajeElegido.personaje);
+
+    // Limitamos el tamaño del historial
+    if (historialPersonajes.length > MAX_HISTORIAL) {
+        historialPersonajes.shift();
+    }
+
+    return personajeElegido;
 };

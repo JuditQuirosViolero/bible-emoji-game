@@ -23,7 +23,7 @@ const PlayModeSelector = ({
                     }`}
                     onClick={() => onSelect("solitario")}
                 >
-                    👤 Solitario
+                    <i className="bi bi-person-fill"></i> Solitario
                 </button>
 
                 <button
@@ -35,7 +35,7 @@ const PlayModeSelector = ({
                     }`}
                     onClick={() => onSelect("grupos")}
                 >
-                    👥 Competición en grupos
+                    <i className="bi bi-people-fill"></i> Competición en grupos
                 </button>
             </div>
         </div>

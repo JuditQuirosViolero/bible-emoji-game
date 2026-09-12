@@ -11,243 +11,181 @@ import TeamForm from "../components/home/TeamForm";
 import type { GameConfig } from "../types/GameConfig";
 
 const Home = () => {
-    const navigate = useNavigate();
+  const navigate = useNavigate();
 
-    const [empezar, setEmpezar] = useState(false);
+  const [empezar, setEmpezar] = useState(false);
+  const [tipo, setTipo] = useState<"nino" | "adulto" | null>(null);
 
-    const [tipo, setTipo] = useState<
-        "nino" | "adulto" | null
-    >(null);
+  const [dificultad, setDificultad] = useState<
+    "normal" | "facil" | "medio" | "dificil" | null
+  >(null);
 
-    const [dificultad, setDificultad] = useState<
-        "normal" | "facil" | "medio" | "dificil" | null
-    >(null);
+  const [modo, setModo] = useState<"solitario" | "grupos" | null>(null);
+  const [nombreJugador, setNombreJugador] = useState("");
+  const [numeroGrupos, setNumeroGrupos] = useState(2);
+  const [grupos, setGrupos] = useState<string[]>(["", ""]);
 
-    const [modo, setModo] = useState<
-        "solitario" | "grupos" | null
-    >(null);
+  const seleccionarTipo = (nuevoTipo: "nino" | "adulto") => {
+    setTipo(nuevoTipo);
 
-    const [nombreJugador, setNombreJugador] =
-        useState("");
+    // Al cambiar de tipo, reiniciamos lo que depende de él
+    setDificultad(null);
+    setModo(null);
+  };
 
-    const [numeroGrupos, setNumeroGrupos] = useState(2);
+  const seleccionarDificultad = (
+    nuevaDificultad: "normal" | "facil" | "medio" | "dificil",
+  ) => {
+    setDificultad(nuevaDificultad);
 
-    const [grupos, setGrupos] = useState<string[]>([
-        "",
-        "",
-    ]);
+    // Si cambia la dificultad, todavía no ha elegido modo
+    setModo(null);
+  };
 
-    const seleccionarTipo = (
-        nuevoTipo: "nino" | "adulto"
-    ) => {
-        setTipo(nuevoTipo);
+  const seleccionarModo = (nuevoModo: "solitario" | "grupos") => {
+    setModo(nuevoModo);
 
-        // Al cambiar de tipo, reiniciamos lo que depende de él
-        setDificultad(null);
-        setModo(null);
-    };
+    if (nuevoModo === "grupos") {
+      setNumeroGrupos(2);
+      setGrupos(["", ""]);
+    }
+  };
 
-    const seleccionarDificultad = (
-        nuevaDificultad:
-            | "normal"
-            | "facil"
-            | "medio"
-            | "dificil"
-    ) => {
-        setDificultad(nuevaDificultad);
+  const puedeEmpezar = () => {
+    if (!tipo || !dificultad || !modo) {
+      return false;
+    }
 
-        // Si cambia la dificultad, todavía no ha elegido modo
-        setModo(null);
-    };
-
-    const seleccionarModo = (
-        nuevoModo: "solitario" | "grupos"
-    ) => {
-        setModo(nuevoModo);
-
-        if (nuevoModo === "grupos") {
-            setNumeroGrupos(2);
-            setGrupos(["", ""]);
-        }
-    };
-
-    const puedeEmpezar = () => {
-        if (!tipo || !dificultad || !modo) {
-            return false;
-        }
-
-        if (modo === "solitario") {
-            return nombreJugador.trim() !== "";
-        }
-
-        return (
-            grupos.length === numeroGrupos &&
-            grupos.every(
-                (grupo) => grupo.trim() !== ""
-            )
-        );
-    };
-
-    const empezarPartida = () => {
-        if (!tipo || !dificultad || !modo) {
-            return;
-        }
-
-        const config: GameConfig = {
-            tipo,
-            dificultad,
-            modo,
-        };
-
-        if (modo === "solitario") {
-            config.nombreJugador =
-                nombreJugador.trim();
-        } else {
-            config.grupos = grupos.map((grupo) =>
-                grupo.trim()
-            );
-        }
-
-        console.log("Configuración de la partida:", config);
-
-        navigate("/game", {
-            state: {
-                config,
-            },
-        });
-    };
+    if (modo === "solitario") {
+      return nombreJugador.trim() !== "";
+    }
 
     return (
-        <div className="app-container">
-            <Header />
-
-            <main className="container flex-grow-1 d-flex align-items-center justify-content-center py-5">
-                <div className="game-card home-card w-100">
-                    {!empezar ? (
-                        <div className="text-center">
-                            <div className="welcome-icon">
-                                🏺
-                            </div>
-
-                            <h2 className="home-title">
-                                ¡Prepárate para jugar!
-                            </h2>
-
-                            <p className="home-text">
-                                Pon a prueba tus conocimientos
-                                bíblicos a través de emojis.
-                            </p>
-
-                            <button
-                                type="button"
-                                className="btn btn-game-primary btn-lg px-5"
-                                onClick={() =>
-                                    setEmpezar(true)
-                                }
-                            >
-                                Jugar 🎮
-                            </button>
-                        </div>
-                    ) : (
-                        <>
-                            <div className="text-center mb-4">
-                                <h2 className="home-title">
-                                    Configura tu partida
-                                </h2>
-
-                                <p className="home-text mb-0">
-                                    Elige las opciones para
-                                    comenzar.
-                                </p>
-                            </div>
-
-                            <GameModeSelector
-                                tipo={tipo}
-                                onSelect={seleccionarTipo}
-                            />
-
-                            {tipo && (
-                                <DifficultySelector
-                                    tipo={tipo}
-                                    dificultad={dificultad}
-                                    onSelect={
-                                        seleccionarDificultad
-                                    }
-                                />
-                            )}
-
-                            {tipo && dificultad && (
-                                <PlayModeSelector
-                                    modo={modo}
-                                    onSelect={
-                                        seleccionarModo
-                                    }
-                                />
-                            )}
-
-                            {modo === "solitario" && (
-                                <div className="mt-4">
-                                    <label
-                                        htmlFor="nombreJugador"
-                                        className="form-label"
-                                    >
-                                        ¿Cómo te llamas?
-                                    </label>
-
-                                    <input
-                                        id="nombreJugador"
-                                        type="text"
-                                        className="form-control game-input"
-                                        placeholder="Escribe tu nombre"
-                                        value={nombreJugador}
-                                        onChange={(event) =>
-                                            setNombreJugador(
-                                                event.target.value
-                                            )
-                                        }
-                                    />
-                                </div>
-                            )}
-
-                            {modo === "grupos" && (
-                                <TeamForm
-                                    grupos={grupos}
-                                    numeroGrupos={
-                                        numeroGrupos
-                                    }
-                                    onNumeroGruposChange={
-                                        setNumeroGrupos
-                                    }
-                                    onGruposChange={
-                                        setGrupos
-                                    }
-                                />
-                            )}
-
-                            {modo && (
-                                <div className="text-center mt-4 pt-3 border-top">
-                                    <button
-                                        type="button"
-                                        className="btn btn-game-primary btn-lg px-5"
-                                        disabled={
-                                            !puedeEmpezar()
-                                        }
-                                        onClick={
-                                            empezarPartida
-                                        }
-                                    >
-                                        ¡Empezar a jugar! 🎮
-                                    </button>
-                                </div>
-                            )}
-                        </>
-                    )}
-                </div>
-            </main>
-
-            <Footer />
-        </div>
+      grupos.length === numeroGrupos &&
+      grupos.every((grupo) => grupo.trim() !== "")
     );
+  };
+
+  const empezarPartida = () => {
+    if (!tipo || !dificultad || !modo) {
+      return;
+    }
+
+    const config: GameConfig = {
+      tipo,
+      dificultad,
+      modo,
+    };
+
+    if (modo === "solitario") {
+      config.nombreJugador = nombreJugador.trim();
+    } else {
+      config.grupos = grupos.map((grupo) => grupo.trim());
+    }
+
+    console.log("Configuración de la partida:", config);
+
+    navigate("/game", {
+      state: {
+        config,
+      },
+    });
+  };
+
+  return (
+    <div className="app-container">
+      <Header />
+
+      <main className="container flex-grow-1 d-flex align-items-center justify-content-center py-4">
+        <div className="game-card p-4 w-75">
+          {!empezar ? (
+            <div className="text-center">
+              <div className="welcome-icon">🏺</div>
+
+              <h2 className="home-title">¡Prepárate para jugar!</h2>
+
+              <p>
+                Pon a prueba tus conocimientos bíblicos a través de emojis.
+              </p>
+
+              <button
+                type="button"
+                className="btn btn-game-primary btn-lg px-5"
+                onClick={() => setEmpezar(true)}
+              ><i className="bi bi-play-fill pe-2"></i>
+                Jugar 
+              </button>
+            </div>
+          ) : (
+            <>
+              <div className="text-center mb-4">
+                <h2 className="home-title">Configura tu partida</h2>
+
+                <p className="home-text mb-0">
+                  Elige las opciones para comenzar.
+                </p>
+              </div>
+
+              <GameModeSelector tipo={tipo} onSelect={seleccionarTipo} />
+
+              {tipo && (
+                <DifficultySelector
+                  tipo={tipo}
+                  dificultad={dificultad}
+                  onSelect={seleccionarDificultad}
+                />
+              )}
+
+              {tipo && dificultad && (
+                <PlayModeSelector modo={modo} onSelect={seleccionarModo} />
+              )}
+
+              {modo === "solitario" && (
+                <div className="mt-4">
+                  <label htmlFor="nombreJugador" className="form-label">
+                    ¿Cómo te llamas?
+                  </label>
+
+                  <input
+                    id="nombreJugador"
+                    type="text"
+                    className="form-control game-input"
+                    placeholder="Escribe tu nombre"
+                    value={nombreJugador}
+                    onChange={(event) => setNombreJugador(event.target.value)}
+                  />
+                </div>
+              )}
+
+              {modo === "grupos" && (
+                <TeamForm
+                  grupos={grupos}
+                  numeroGrupos={numeroGrupos}
+                  onNumeroGruposChange={setNumeroGrupos}
+                  onGruposChange={setGrupos}
+                />
+              )}
+
+              {modo && (
+                <div className="text-center mt-4 pt-3 border-top">
+                  <button
+                    type="button"
+                    className="btn btn-game-primary btn-lg px-5"
+                    disabled={!puedeEmpezar()}
+                    onClick={empezarPartida}
+                  ><i className="bi bi-play-fill pe-2"></i>
+                    ¡Empezar a jugar! 
+                  </button>
+                </div>
+              )}
+            </>
+          )}
+        </div>
+      </main>
+
+      <Footer />
+    </div>
+  );
 };
 
 export default Home;
