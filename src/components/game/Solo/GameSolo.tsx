@@ -150,7 +150,7 @@ const GameSolo = ({
                   } mt-3`}
                 >
                   {acierto
-                    ? "¡Correcto! Pasamos al siguiente!!"
+                    ? "¡Correcto! ¡Pasamos al siguiente!"
                     : "No es correcto. ¡Inténtalo de nuevo!"}
                 </div>
               )}
@@ -182,7 +182,7 @@ const GameSolo = ({
               <p>¡Piensa bien antes de responder!</p>
               <p className="small">
                 En cada ronda podrás conseguir un máximo de 10 puntos. Pero ten
-                cuidado, cada fallo te restará 2 punto del total que puedes
+                cuidado, cada fallo te restará 2 puntos del total que puedes
                 ganar en esta ronda. ¡¡No gastes tus oportunidades a la ligera!!
               </p>
             </div>

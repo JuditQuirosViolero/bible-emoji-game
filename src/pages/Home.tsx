@@ -83,8 +83,6 @@ const Home = () => {
       config.grupos = grupos.map((grupo) => grupo.trim());
     }
 
-    console.log("Configuración de la partida:", config);
-
     navigate("/game", {
       state: {
         config,
