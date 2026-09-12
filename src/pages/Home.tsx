@@ -104,22 +104,33 @@ const Home = () => {
 
               <h2 className="home-title">¡Prepárate para jugar!</h2>
 
-              <p>
-                Pon a prueba tus conocimientos bíblicos a través de emojis.
-              </p>
+              <p>Pon a prueba tus conocimientos bíblicos a través de emojis.</p>
 
               <button
                 type="button"
                 className="btn btn-game-primary btn-lg px-5"
                 onClick={() => setEmpezar(true)}
-              ><i className="bi bi-play-fill pe-2"></i>
-                Jugar 
+              >
+                <i className="bi bi-play-fill pe-2"></i>
+                Jugar
               </button>
             </div>
           ) : (
             <>
               <div className="text-center mb-4">
-                <h2 className="home-title">Configura tu partida</h2>
+                <div className="d-flex align-items-center mb-3">
+                  <button
+                    type="button"
+                    className="btn btn-link text-dark p-0 me-3"
+                    onClick={() => setEmpezar(false)}
+                    aria-label="Volver atrás"
+                    title="Volver atrás"
+                  >
+                    <i className="bi bi-arrow-left fs-4"></i>
+                  </button>
+
+                  <h2 className="home-title mb-0">Configura tu partida</h2>
+                </div>
 
                 <p className="home-text mb-0">
                   Elige las opciones para comenzar.
@@ -173,8 +184,9 @@ const Home = () => {
                     className="btn btn-game-primary btn-lg px-5"
                     disabled={!puedeEmpezar()}
                     onClick={empezarPartida}
-                  ><i className="bi bi-play-fill pe-2"></i>
-                    ¡Empezar a jugar! 
+                  >
+                    <i className="bi bi-play-fill pe-2"></i>
+                    ¡Empezar a jugar!
                   </button>
                 </div>
               )}

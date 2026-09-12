@@ -3,7 +3,7 @@
         "id": 1,
         "personaje": "Adán y Eva",
         "historia": "El jardín de Edén",
-        "emojis": ["👨‍🦱","👩‍🦰","🌳","🐍","🍎"],
+        "emojis": ["👨🏻","👩🏻","🌳","🐍","🍎"],
         "pistas": [
             "Vivían en un hermoso jardín",
             "Desobedecieron el mandato de Jehová"
@@ -11,10 +11,10 @@
         "niveles": ["facil"]
     },
     {
-        "id": 3,
+        "id": 2,
         "personaje": "Noé",
         "historia": "Arca",
-        "emojis": ["👴","🛶","🦒","🌧️"],
+        "emojis": ["👴🏻","🛶","🦒","🌧️"],
         "pistas": [
             "Construyó un arca",
             "Hubo un gran diluvio"
@@ -22,10 +22,10 @@
         "niveles": ["facil"]
     },
     {
-        "id": 15,
+        "id": 3,
         "personaje": "Moisés",
         "historia": "Moisés de bebé",
-        "emojis": ["👶","🧺","🌊","👸"],
+        "emojis": ["👶🏻","🧺","🌊","🐊"],
         "pistas": [
             "Su madre lo puso en una cesta",
             "Una princesa lo encontró"
@@ -33,43 +33,10 @@
         "niveles": ["facil"]
     },
     {
-        "id": 16,
-        "personaje": "Moisés",
-        "historia": "El mar Rojo",
-        "emojis": ["🧔‍♂️","🌊","➡️","🛣️"],
-        "pistas": [
-            "Jehová hizo que el agua se abriera",
-            "Los israelitas cruzaron por tierra seca"
-        ],
-        "niveles": ["facil"]
-    },
-    {
-        "id": 33,
-        "personaje": "David y Goliat",
-        "historia": "David vence a Goliat",
-        "emojis": ["👦","🧔‍♂️","🪨","🎯"],
-        "pistas": [
-            "Uno de ellos era un gigante",
-            "Usó una honda y una piedra"
-        ],
-        "niveles": ["facil"]
-    },
-    {
-        "id": 55,
-        "personaje": "Daniel",
-        "historia": "El foso de los leones",
-        "emojis": ["🧔‍♂️","🦁","🦁","🕳️"],
-        "pistas": [
-            "Fue arrojado a un foso",
-            "Jehová protegió su vida"
-        ],
-        "niveles": ["facil"]
-    },
-    {
         "id": 4,
         "personaje": "Sansón",
         "historia": "Dalila le corta el pelo",
-        "emojis": ["🧔‍♂️","💇‍♂️","✂️","💪"],
+        "emojis": ["🧔🏻‍♀️","💪🏻","✂️","💇🏻‍♂️"],
         "pistas": [
             "Tenía una fuerza extraordinaria",
             "Su pelo tenía relación con su fuerza"
@@ -80,7 +47,7 @@
         "id": 5,
         "personaje": "Sansón",
         "historia": "Los zorros",
-        "emojis": ["🧔‍♂️","🦊","🦊","🔥","🌾"],
+        "emojis": ["🧔🏻‍♀️","🦊","🦊","🔥","🌾"],
         "pistas": [
             "Ató animales por la cola",
             "Los campos de los filisteos fueron quemados"
@@ -91,7 +58,7 @@
         "id": 6,
         "personaje": "Abraham",
         "historia": "La promesa de las estrellas",
-        "emojis": ["👴","⭐","⭐","🌌"],
+        "emojis": ["👨🏻‍🦳","⛰️","🌌","⭐"],
         "pistas": [
             "Jehová le hizo una promesa",
             "Su descendencia sería muy numerosa"
@@ -99,187 +66,10 @@
         "niveles": ["facil"]
     },
     {
-        "id": 22,
-        "personaje": "Rahab",
-        "historia": "Ayuda a los espías",
-        "emojis": ["🏠","🪢","🪟","🔴"],
-        "pistas": [
-            "Escondió a dos espías",
-            "Los ayudó a escapar por una ventana"
-        ],
-        "niveles": ["facil"]
-    },
-    {
-        "id": 9,
-        "personaje": "Rebeca",
-        "historia": "El cántaro y los camellos",
-        "emojis": ["👩","🏺","🐪","🐪"],
-        "pistas": [
-            "Sacaba agua de un pozo",
-            "Dio agua a unos camellos"
-        ],
-        "niveles": ["facil"]
-    },
-    {
-        "id": 10,
-        "personaje": "Esaú",
-        "historia": "Las lentejas",
-        "emojis": ["🧔‍♂️","🍲","🥣","🤝"],
-        "pistas": [
-            "Tenía mucha hambre",
-            "Cambió su primogenitura por comida"
-        ],
-        "niveles": ["facil"]
-    },
-    {
-        "id": 11,
-        "personaje": "Jacob",
-        "historia": "Sus cuatro mujeres y doce hijos",
-        "emojis": ["👨‍🦱","👩","👩","👩","👩","👶","👶","👶","👶"],
-        "pistas": [
-            "Tuvo doce hijos varones",
-            "Sus hijos llegaron a ser los antepasados de las doce tribus"
-        ],
-        "niveles": ["medio"]
-    },
-    {
-        "id": 12,
-        "personaje": "Jacob",
-        "historia": "Pelea con un ángel",
-        "emojis": ["🧔‍♂️","🥊","😇","🌙"],
-        "pistas": [
-            "Luchó durante toda una noche",
-            "Recibió una bendición"
-        ],
-        "niveles": ["facil"]
-    },
-    {
-        "id": 17,
-        "personaje": "Moisés",
-        "historia": "Los Diez Mandamientos",
-        "emojis": ["🧔‍♂️","⛰️","🪨","📜"],
-        "pistas": [
-            "Subió a una montaña",
-            "Recibió leyes de Jehová"
-        ],
-        "niveles": ["facil"]
-    },
-    {
-        "id": 19,
-        "personaje": "Aarón",
-        "historia": "El sacerdote",
-        "emojis": ["👨‍🦱","👘","🧢","🏕️"],
-        "pistas": [
-            "Era hermano de Moisés",
-            "Fue nombrado sumo sacerdote"
-        ],
-        "niveles": ["facil"]
-    },
-    {
-        "id": 24,
-        "personaje": "Rut y Noemí",
-        "historia": "Rut acompaña a Noemí",
-        "emojis": ["👩‍🦱","👵","🌾","🤝"],
-        "pistas": [
-            "Una de ellas decidió quedarse con la otra",
-            "Vivieron en Belén"
-        ],
-        "niveles": ["facil"]
-    },
-    {
-        "id": 23,
-        "personaje": "Ester",
-        "historia": "Ester salva a su pueblo",
-        "emojis": ["👸","👑","🙏","👥"],
-        "pistas": [
-            "Era reina",
-            "Arriesgó su vida para ayudar a su pueblo"
-        ],
-        "niveles": ["facil"]
-    },
-    {
-        "id": 38,
-        "personaje": "Salomón",
-        "historia": "El rey sabio",
-        "emojis": ["👑","🧠","⚖️","👶"],
-        "pistas": [
-            "Jehová le dio mucha sabiduría",
-            "Fue famoso por sus decisiones sabias"
-        ],
-        "niveles": ["facil"]
-    },
-    {
-        "id": 54,
-        "personaje": "Daniel",
-        "historia": "Interpretación de sueños",
-        "emojis": ["🧔‍♂️","👑","💭","🧠"],
-        "pistas": [
-            "Podía interpretar sueños",
-            "Ayudó a un rey a entender un sueño"
-        ],
-        "niveles": ["medio"]
-    },
-    {
-        "id": 59,
-        "personaje": "María",
-        "historia": "Madre de Jesús",
-        "emojis": ["👩","👶","⭐","👨‍🦱"],
-        "pistas": [
-            "Fue la madre de Jesús",
-            "Un ángel le anunció que tendría un hijo"
-        ],
-        "niveles": ["facil"]
-    },
-    {
-        "id": 60,
-        "personaje": "José",
-        "historia": "Padre adoptivo de Jesús",
-        "emojis": ["👨‍🦱","👶","🪚","🪵"],
-        "pistas": [
-            "Era carpintero",
-            "Cuidó de Jesús cuando era niño"
-        ],
-        "niveles": ["facil"]
-    },
-    {
-        "id": 69,
-        "personaje": "María Magdalena",
-        "historia": "Liberada de siete demonios",
-        "emojis": ["👩","7️⃣","👿","✨"],
-        "pistas": [
-            "Jesús la liberó de siete demonios",
-            "Fue una de las mujeres que acompañaron a Jesús"
-        ],
-        "niveles": ["facil"]
-    },
-    {
-        "id": 70,
-        "personaje": "Mateo",
-        "historia": "Recaudador de impuestos",
-        "emojis": ["👨‍🦱","🪙","💰","✋"],
-        "pistas": [
-            "Trabajaba cobrando impuestos",
-            "Jesús lo invitó a seguirlo"
-        ],
-        "niveles": ["facil"]
-    },
-    {
-        "id": 71,
-        "personaje": "Judas Iscariote",
-        "historia": "La traición por dinero",
-        "emojis": ["👨‍🦱","🪙","🤝","😗"],
-        "pistas": [
-            "Recibió dinero por entregar a Jesús",
-            "Lo identificó con un beso"
-        ],
-        "niveles": ["facil"]
-    },
-
-    {
         "id": 7,
         "personaje": "Mujer de Lot",
         "historia": "Convertida en estatua de sal",
-        "emojis": ["👩","🏃‍♀️","🧂","🏙️"],
+        "emojis": ["👩🏻","🏃‍♀️","🧂","🏘️","☄️"],
         "pistas": [
             "Miró hacia atrás",
             "Se convirtió en una estatua de sal"
@@ -290,7 +80,7 @@
         "id": 8,
         "personaje": "Isaac",
         "historia": "El sacrificio de Isaac",
-        "emojis": ["👴","👦","🪵","🔪"],
+        "emojis": ["👴🏻","🔪","🪵","🔥","👦🏻","🐏"],
         "pistas": [
             "Su padre recibió una prueba de Jehová",
             "Un ángel detuvo el sacrificio"
@@ -298,21 +88,131 @@
         "niveles": ["facil"]
     },
     {
+        "id": 9,
+        "personaje": "Rebeca",
+        "historia": "El cántaro y los camellos",
+        "emojis": ["👩🏻","🏺","💧","🐪","🐪"],
+        "pistas": [
+            "Sacaba agua de un pozo",
+            "Dio agua a unos camellos"
+        ],
+        "niveles": ["facil"]
+    },
+    {
+        "id": 10,
+        "personaje": "Esaú",
+        "historia": "Las lentejas",
+        "emojis": ["👨🏻‍🦰","🍲","🤝"],
+        "pistas": [
+            "Tenía mucha hambre",
+            "Cambió su primogenitura por comida"
+        ],
+        "niveles": ["facil"]
+    },
+    {
+        "id": 11,
+        "personaje": "Jacob",
+        "historia": "Sus cuatro mujeres y doce hijos",
+        "emojis": ["👨🏻","4️⃣","👩🏻","1️⃣2️⃣","👶🏻"],
+        "pistas": [
+            "Tuvo doce hijos varones",
+            "Sus hijos llegaron a ser los antepasados de las doce tribus"
+        ],
+        "niveles": ["medio"]
+    },
+    {
+        "id": 12,
+        "personaje": "Jacob",
+        "historia": "Pelea con un ángel",
+        "emojis": ["🧔🏻‍♂️","🥊","😇","🌙"],
+        "pistas": [
+            "Luchó durante toda una noche",
+            "Recibió una bendición"
+        ],
+        "niveles": ["facil"]
+    },
+    {
+        "id": 13,
+        "personaje": "Enoc",
+        "historia": "Visión del futuro y muerte",
+        "emojis": ["🧓🏻","👀","✨","🏞️","⬆️","🌫️"],
+        "pistas": [
+            "La gente malvada de su alredor quería matarlo",
+            "Dios le permitió ver el paraiso y después lo tomó"
+        ],
+        "niveles": ["medio"]
+    },
+    {
+        "id": 14,
+        "personaje": "Sara",
+        "historia": "Tiene un hijo siendo viejita",
+        "emojis": ["👵🏻","🤰🏻","👶🏻","🤱🏻"],
+        "pistas": [
+            "Jehová le dijo a su marido que le hiciera caso.",
+            "Tuvo un bebé siendo muy mayor"
+        ],
+        "niveles": ["facil"]
+    },
+    {
+        "id": 15,
+        "personaje": "Bernabé",
+        "historia": "Hijo del Consuelo",
+        "emojis": ["🧔🏻‍♂️","🧳","😢","🫂","🤗"],
+        "pistas": [
+            "Viajó mucho tiempo con Pablo",
+            "Se le llama el hijo del consuelo"
+        ],
+        "niveles": ["dificil"]
+    },
+    {
+        "id": 16,
+        "personaje": "Moisés",
+        "historia": "El mar Rojo",
+        "emojis": ["🧔🏻‍♂️","🌊","➡️","🛣️"],
+        "pistas": [
+            "Jehová hizo que el agua se abriera",
+            "Los israelitas cruzaron por tierra seca"
+        ],
+        "niveles": ["facil"]
+    },
+    {
+        "id": 17,
+        "personaje": "Moisés",
+        "historia": "Los Diez Mandamientos",
+        "emojis": ["🧔🏻‍♂️","⛰️","1️⃣0️⃣","📜"],
+        "pistas": [
+            "Subió a una montaña",
+            "Recibió leyes de Jehová"
+        ],
+        "niveles": ["facil"]
+    },
+    {
         "id": 18,
         "personaje": "Moisés",
         "historia": "La serpiente de cobre",
-        "emojis": ["🧔‍♂️","🐍","🪵","🏜️"],
+        "emojis": ["🧔🏻‍♂️","🐍","🟤","🪵","🏜️"],
         "pistas": [
             "Jehová mandó hacer una serpiente",
             "Mirarla ayudaba a los israelitas mordidos por serpientes"
         ],
-        "niveles": ["medio"]
+        "niveles": ["dificil"]
+    },
+    {
+        "id": 19,
+        "personaje": "Aarón",
+        "historia": "El sacerdote",
+        "emojis": ["👳🏻‍♂️","🕋","🔥","🐑"],
+        "pistas": [
+            "Era hermano de Moisés",
+            "Fue nombrado sumo sacerdote"
+        ],
+        "niveles": ["facil"]
     },
     {
         "id": 20,
         "personaje": "Aarón",
         "historia": "El becerro de oro",
-        "emojis": ["👨‍🦱","🐂","🪙","🔥"],
+        "emojis": ["👨🏻","🐂","🪙","🎉"],
         "pistas": [
             "El pueblo pidió hacer un dios",
             "Se hizo una estatua de oro"
@@ -320,10 +220,54 @@
         "niveles": ["facil"]
     },
     {
+        "id": 21,
+        "personaje": "Coré",
+        "historia": "La rebelión contra Moisés",
+        "emojis": ["😡","🗣️","🪾","🌸","🧓🏻","🔥"],
+        "pistas": [
+            "Se rebelaron contra la autoridad de Moisés y Aarón",
+            "Jehová castigó su rebelión"
+        ],
+        "niveles": ["dificil"]
+    },
+    {
+        "id": 22,
+        "personaje": "Rahab",
+        "historia": "Ayuda a los espías",
+        "emojis": ["👩🏻‍🦱","🏠","🪟","🪢","🔴"],
+        "pistas": [
+            "Escondió a dos espías",
+            "Los ayudó a escapar por una ventana"
+        ],
+        "niveles": ["facil"]
+    },
+    {
+        "id": 23,
+        "personaje": "Ester",
+        "historia": "Ester salva a su pueblo",
+        "emojis": ["👸🏻","👑","🙏🏻","👥"],
+        "pistas": [
+            "Era reina",
+            "Arriesgó su vida para ayudar a su pueblo"
+        ],
+        "niveles": ["facil"]
+    },
+    {
+        "id": 24,
+        "personaje": "Rut y Noemí",
+        "historia": "Rut acompaña a Noemí",
+        "emojis": ["👩🏻‍🦱","👵🏻","🌾","🤝"],
+        "pistas": [
+            "Una de ellas decidió quedarse con la otra",
+            "Vivieron en Belén"
+        ],
+        "niveles": ["facil"]
+    },
+    {
         "id": 25,
         "personaje": "Abigail",
         "historia": "Lleva comida a David",
-        "emojis": ["👩","🍞","🍷","🫏"],
+        "emojis": ["👩🏻","🍞","🍷","😡","🧑🏻‍🦰"],
         "pistas": [
             "Llevó comida para evitar un conflicto",
             "Se encontró con David"
@@ -334,7 +278,7 @@
         "id": 26,
         "personaje": "Débora",
         "historia": "Débora y Barac",
-        "emojis": ["👩","🌴","⚖️","⚔️"],
+        "emojis": ["👩🏻","🌴","⚖️","⚔️"],
         "pistas": [
             "Era profetisa y jueza",
             "Ayudó a Barac en una batalla"
@@ -342,10 +286,21 @@
         "niveles": ["medio"]
     },
     {
+        "id": 27,
+        "personaje": "Hija de Jefté",
+        "historia": "La hija de Jefté",
+        "emojis": ["🧔🏻","⚔️","🎉","🎶","🪇","💃","👩🏻","🏡"],
+        "pistas": [
+            "Era hija única",
+            "Su padre había hecho un voto a Jehová"
+        ],
+        "niveles": ["medio"]
+    },
+    { 
         "id": 28,
         "personaje": "Gedeón",
         "historia": "Los cántaros y las antorchas",
-        "emojis": ["🧔‍♂️","🏺","🔥","🌙"],
+        "emojis": ["🧔🏻‍♂️", "🌙", "🏺", "🔥", "🎺"],
         "pistas": [
             "Su ejército era muy pequeño",
             "Usaron cántaros y antorchas"
@@ -356,18 +311,40 @@
         "id": 29,
         "personaje": "Ana",
         "historia": "Ana ora por un hijo",
-        "emojis": ["👩","🙏","🏕️","👶"],
+        "emojis": ["👩🏻","😭","🙏🏻","🏛️","👶🏻","😡","👳🏻‍♂️"],
         "pistas": [
             "Oró intensamente por un hijo",
             "Prometió dedicarlo a Jehová"
+        ],
+        "niveles": ["dificil"]
+    },
+    {
+        "id": 30,
+        "personaje": "Samuel",
+        "historia": "Samuel escucha la llamada de Jehová",
+        "emojis": ["👦🏻","🛏️","🌙","👂🏻"],
+        "pistas": [
+            "Era un niño que servía en el tabernáculo",
+            "Escuchó una voz durante la noche"
         ],
         "niveles": ["medio"]
     },
     {
         "id": 31,
+        "personaje": "Pedro",
+        "historia": "Pedro anda sobre las aguas",
+        "emojis": ["🧔🏻","🛶","⛈️","🌊","🚶🏻‍♂️"],
+        "pistas": [
+            "Jesús lo invitó a caminar sobre el agua.",
+            "Caminó sobre el agua, pero empezó a hundirse cuando tuvo miedo."
+        ],
+        "niveles": ["medio"]
+    },
+    {
+        "id": 32,
         "personaje": "David",
         "historia": "David y el oso y el león",
-        "emojis": ["👦","🐻","🦁","🐑"],
+        "emojis": ["👦🏻","🐻","🦁","🐑"],
         "pistas": [
             "Protegía las ovejas de su padre",
             "Mató tanto a un león como a un oso"
@@ -375,10 +352,32 @@
         "niveles": ["facil"]
     },
     {
+        "id": 33,
+        "personaje": "David y Goliat",
+        "historia": "David vence a Goliat",
+        "emojis": ["🧑🏻‍🦰","🪨","🏹","🤦🏻‍♂️","☠️"],
+        "pistas": [
+            "Uno de ellos era un gigante",
+            "Usó una honda y una piedra"
+        ],
+        "niveles": ["facil"]
+    },
+    {
+        "id": 34,
+        "personaje": "David",
+        "historia": "David y Bat-seba",
+        "emojis": ["👑","👀","😍","👩🏻","🚿"],
+        "pistas": [
+            "David cometió un grave pecado",
+            "El esposo de ella se llamaba Urías"
+        ],
+        "niveles": ["medio"]
+    },
+    {
         "id": 35,
         "personaje": "David",
         "historia": "David huye de Saúl",
-        "emojis": ["🏃‍♂️","👑","🗡️","🏔️"],
+        "emojis": ["🧑🏻‍🦰","🪉","🏃‍♂️","🏔️","🗡️","🤴🏻"],
         "pistas": [
             "Un rey quería matarlo",
             "Tuvo que esconderse"
@@ -389,7 +388,7 @@
         "id": 36,
         "personaje": "Saúl",
         "historia": "David corta un trozo de su túnica",
-        "emojis": ["👑","🕳️","✂️","👕"],
+        "emojis": ["👑","⛰️","🧎🏻‍♂️", "💩", "🗡️", "🧥"],
         "pistas": [
             "Estaba dentro de una cueva",
             "David pudo hacerle daño pero decidió no hacerlo"
@@ -397,21 +396,43 @@
         "niveles": ["medio"]
     },
     {
+        "id": 37,
+        "personaje": "Mefibóset",
+        "historia": "Mefibóset y David",
+        "emojis": ["👑", "🍽️", "🪑", "👨🏻", "🩼"],
+        "pistas": [
+            "Sufrió un accidente de niño que lo dejó lisiado de ambos pies",
+            "Por amor a su padre Jonatán, el rey David lo invitó a comer siempre en su mesa"
+        ],
+        "niveles": ["dificil"]
+    },
+    {
+        "id": 38,
+        "personaje": "Salomón",
+        "historia": "El rey sabio",
+        "emojis": ["👑","👦🏻","🧠","⚖️","🤑"],
+        "pistas": [
+            "Jehová le dio mucha sabiduría",
+            "Fue famoso por sus decisiones sabias"
+        ],
+        "niveles": ["facil"]
+    },
+    {
         "id": 39,
         "personaje": "Salomón",
         "historia": "Divide al bebé",
-        "emojis": ["👑","👶","⚔️","👩‍⚖️"],
+        "emojis": ["🤴🏻","🗡️","👶🏻","👩🏻","👱🏻‍♀️"],
         "pistas": [
             "Dos mujeres decían ser la madre del bebé",
             "El rey propuso una solución sorprendente"
         ],
         "niveles": ["facil"]
-    },
+    }, 
     {
         "id": 40,
         "personaje": "Salomón",
         "historia": "Muchas mujeres y desviación",
-        "emojis": ["👑","👩","👩","❤️","↩️"],
+        "emojis": ["🤴🏻","❤️","💯","👩🏻","🙏🏻","🐂"],
         "pistas": [
             "Tuvo muchas esposas",
             "Sus esposas hicieron que su corazón se desviara"
@@ -422,7 +443,7 @@
         "id": 41,
         "personaje": "Elías",
         "historia": "Comida del ángel",
-        "emojis": ["😔","😇","🍞","💧"],
+        "emojis": ["🙍🏻‍♂️","😢","😇","🍞","💧"],
         "pistas": [
             "Estaba cansado y desanimado",
             "Un ángel le llevó comida y agua"
@@ -433,7 +454,7 @@
         "id": 42,
         "personaje": "Elías",
         "historia": "Corre delante del carro de Acab",
-        "emojis": ["🏃‍♂️","🐎","🛞","💨"],
+        "emojis": ["🏃‍♂️","💨","🐎","🤴🏻"],
         "pistas": [
             "Corrió delante de un carro",
             "Jehová le dio fuerzas extraordinarias"
@@ -441,21 +462,54 @@
         "niveles": ["medio"]
     },
     {
+        "id": 43,
+        "personaje": "Elías",
+        "historia": "Elías sube al cielo",
+        "emojis": ["🧔🏻‍♂️","🌪️","⬆️","🐎","🔥"],
+        "pistas": [
+            "No murió de la manera habitual",
+            "Un viento fuerte se lo llevó"
+        ],
+        "niveles": ["dificil"]
+    },
+    {
+        "id": 44,
+        "personaje": "José",
+        "historia": "La túnica de colores y la traición",
+        "emojis": ["🧑🏻‍🦱", "🎨", "🧥", "👥", "🕳️", "💰", "🐫"],
+        "pistas": [
+            "Su padre lo amaba más que a todos sus hermanos y le regaló una hermosa túnica de muchos colores",
+            "Sus hermanos, cegados por la envidia, lo arrojaron a una cisterna vacía y luego lo vendieron a unos mercaderes que iban en camello hacia Egipto"
+        ],
+        "niveles": ["medio"]
+    }, 
+    {
         "id": 45,
         "personaje": "Jezabel",
         "historia": "La viña de Nabot",
-        "emojis": ["👑","🍇","🏡","😡"],
+        "emojis": ["👸🏻","🍇","📜","🙅🏻‍♂️","🗣️","☠️"],
         "pistas": [
             "Quería conseguir una viña",
             "Nabot se negó a vendérsela"
         ],
-        "niveles": ["medio"]
+        "niveles": ["dificil"]
+    },
+    {
+        "id": 46,
+        "personaje": "Atalía",
+        "historia": "Atalía intenta acabar con la descendencia real",
+        "emojis": ["👸🏻","👿","🗡️","👶🏻","🏛️"],
+        "pistas": [
+            "Era una reina muy malvada",
+            "Intentó eliminar a la descendencia real"
+        ],
+        "niveles": ["dificil"]
     },
     {
         "id": 47,
         "personaje": "Manasés",
         "historia": "Se humilla y ora a Jehová",
-        "emojis": ["👑","⛓️","🙏","⬇️"],
+        "emojis": ["🫅🏻","😠","⛓️","🙏🏻","🫅🏻","😊"],
         "pistas": [
             "Fue llevado cautivo",
             "Se humilló y oró a Jehová"
@@ -466,7 +520,7 @@
         "id": 48,
         "personaje": "Josías",
         "historia": "Encuentran el libro de la Ley",
-        "emojis": ["👑","🏛️","🔨","📜"],
+        "emojis": ["👑","🏛️","📜","🙏🏻","💥", "🐂"],
         "pistas": [
             "Fue un rey que hizo grandes reformas",
             "Se encontró el libro de la Ley en el templo"
@@ -475,9 +529,9 @@
     },
     {
         "id": 49,
-        "personaje": "Josafat",
+        "personaje": "Jehosafat",
         "historia": "Los cantores delante del ejército",
-        "emojis": ["👑","🙏","🎶","⚔️"],
+        "emojis": ["👑","🙏🏻","🎶","⚔️"],
         "pistas": [
             "El pueblo cantó alabanzas a Jehová",
             "Los cantores fueron delante del ejército"
@@ -485,46 +539,90 @@
         "niveles": ["dificil"]
     },
     {
+        "id": 50,
+        "personaje": "Uzías",
+        "historia": "Uzías ofrece incienso",
+        "emojis": ["👑","🏛️","🪔","🧑🏻‍🦲", "😷"],
+        "pistas": [
+            "Entró en el templo para ofrecer incienso",
+            "Jehová lo castigó con lepra"
+        ],
+        "niveles": ["dificil"]
+    },
+    {
+        "id": 51,
+        "personaje": "Oseas",
+        "historia": "La familia de Oseas",
+        "emojis": ["🧔🏻‍♂️","📣","🤘🏻","👩🏻","👶🏻","👶🏻","👶🏻"],
+        "pistas": [
+            "Jehová utilizó su vida familiar para transmitir un mensaje",
+            "Tuvo hijos con nombres simbólicos"
+        ],
+        "niveles": ["dificil"]
+    },
+    {
         "id": 52,
         "personaje": "Ezequías",
         "historia": "La carta de Senaquerib",
-        "emojis": ["👑","✉️","🏛️","🙏"],
+        "emojis": ["👑","📜","🧱","😇","🗡️","☠️","🪖"],
         "pistas": [
-            "Recibió un mensaje amenazante",
-            "Extendió la carta delante de Jehová"
+            "Recibió un mensaje amenazante de sus enemigos",
+            "Jehová los defendió mediante un ángel"
+        ],
+        "niveles": ["dificil"]
+    },
+    {
+        "id": 53,
+        "personaje": "Jeremías",
+        "historia": "El profeta llorón y la caída de Jerusalén",
+        "emojis": ["🧒🏻", "🗣️", "😭", "📜", "🏙️", "🔥"],
+        "pistas": [
+            "Es conocido tradicionalmente como el profeta llorón",
+            "Profetizó y lamentó profundamente ver su ciudad destruida por el fuego"
         ],
         "niveles": ["medio"]
+    },
+    {
+        "id": 54,
+        "personaje": "Daniel",
+        "historia": "Interpretación de sueños",
+        "emojis": ["🧔🏻‍♂️","💭","👑","☄️","🦶🏻","🗽"],
+        "pistas": [
+            "Podía interpretar sueños",
+            "Ayudó a un rey a entender un sueño"
+        ],
+        "niveles": ["medio"]
+    },
+     {
+        "id": 55,
+        "personaje": "Daniel",
+        "historia": "El foso de los leones",
+        "emojis": ["🧔🏻‍♂️","🦁","🦁","🕳️"],
+        "pistas": [
+            "Fue arrojado a un foso",
+            "Jehová protegió su vida"
+        ],
+        "niveles": ["facil"]
+    },
+    {
+        "id": 56,
+        "personaje": "Nabucodonosor",
+        "historia": "Viviendo como un animal",
+        "emojis": ["👑","🤪","🌾","🐂","🦅"],
+        "pistas": [
+            "Fue humillado por su orgullo",
+            "Vivió como los animales durante un tiempo"
+        ],
+        "niveles": ["dificil"]
     },
     {
         "id": 57,
         "personaje": "Los 3 hebreos",
         "historia": "El horno de fuego",
-        "emojis": ["👨‍🦱","👨‍🦱","👨‍🦱","🔥","👑"],
+        "emojis": ["👨🏻","👨🏻","👨🏻","😇","🔥","👑"],
         "pistas": [
             "Tres hebreos fueron arrojados al fuego",
             "Jehová los protegió"
-        ],
-        "niveles": ["medio"]
-    },
-    {
-        "id": 64,
-        "personaje": "Juan el Bautista",
-        "historia": "Juan en el desierto",
-        "emojis": ["🧔‍♂️","🐪","🍯","🌿","💧"],
-        "pistas": [
-            "Vivía de una manera muy sencilla",
-            "Bautizaba a las personas"
-        ],
-        "niveles": ["medio"]
-    },
-    {
-        "id": 72,
-        "personaje": "Zaqueo",
-        "historia": "Subido al árbol",
-        "emojis": ["🧔‍♂️","🪙","🌳","👀"],
-        "pistas": [
-            "Era bajito",
-            "Era recaudador de impuestos"
         ],
         "niveles": ["medio"]
     },
@@ -540,10 +638,32 @@
         "niveles": ["medio"]
     },
     {
+        "id": 59,
+        "personaje": "María",
+        "historia": "Madre de Jesús",
+        "emojis": ["😇", "🗣️","🤰🏻"],
+        "pistas": [
+            "Fue la madre de Jesús",
+            "Un ángel le anunció que tendría un hijo"
+        ],
+        "niveles": ["facil"]
+    },
+    {
+        "id": 60,
+        "personaje": "José",
+        "historia": "Padre adoptivo de Jesús",
+        "emojis": ["🧔🏻‍♂️","⚒️","🪚","🪵"],
+        "pistas": [
+            "Era carpintero",
+            "Cuidó de Jesús cuando era niño"
+        ],
+        "niveles": ["facil"]
+    },
+    {
         "id": 61,
         "personaje": "Ana",
         "historia": "Ana habla del niño Jesús",
-        "emojis": ["👵","🏛️","👶","🙏"],
+        "emojis": ["👵🏻","🏛️","👶🏻","🙏🏻"],
         "pistas": [
             "Era una profetisa de edad avanzada",
             "Habló de Jesús a quienes esperaban la liberación"
@@ -554,7 +674,7 @@
         "id": 62,
         "personaje": "Simeón",
         "historia": "Simeón ve al niño Jesús",
-        "emojis": ["👴","👶","🏛️","🙏"],
+        "emojis": ["👴🏻","👶🏻","🏛️","🙏🏻"],
         "pistas": [
             "Jehová le prometió que vería al Cristo",
             "Tomó al niño Jesús en sus brazos"
@@ -565,7 +685,7 @@
         "id": 63,
         "personaje": "Elisabet",
         "historia": "Elisabet recibe a María",
-        "emojis": ["👵","🤰","👩","🤰"],
+        "emojis": ["👵🏻","🤰🏻","😀","👩🏻","🤰🏻"],
         "pistas": [
             "Era pariente de María",
             "Estaba embarazada de Juan el Bautista"
@@ -573,10 +693,21 @@
         "niveles": ["medio"]
     },
     {
+        "id": 64,
+        "personaje": "Juan el Bautista",
+        "historia": "Juan en el desierto",
+        "emojis": ["🧔🏻‍♂️","🐪","🍯","🦗","💧"],
+        "pistas": [
+            "Vivía de una manera muy sencilla",
+            "Bautizaba a las personas"
+        ],
+        "niveles": ["facil"]
+    },
+    {
         "id": 65,
         "personaje": "Pedro",
         "historia": "Pedro niega a Jesús",
-        "emojis": ["👨‍🦱","🔥","🐓","❌"],
+        "emojis": ["👨🏻","❌","3️⃣","🐓"],
         "pistas": [
             "Dijo tres veces que no conocía a Jesús",
             "Un gallo cantó después"
@@ -587,7 +718,7 @@
         "id": 66,
         "personaje": "Santiago y Juan",
         "historia": "Los hijos del trueno",
-        "emojis": ["👬","⚡","⚡","👨‍🦱"],
+        "emojis": ["👬","⚡","⚡"],
         "pistas": [
             "Eran hermanos",
             "Jesús les puso un apodo relacionado con el trueno"
@@ -596,12 +727,12 @@
     },
     {
         "id": 67,
-        "personaje": "María, Marta y Lázaro",
+        "personaje": "Lázaro",
         "historia": "La resurrección de Lázaro",
-        "emojis": ["👩","👩","👨","🪦","➡️"],
+        "emojis": ["👩🏻","👩🏻","👨🏻","4️⃣","🪦"],
         "pistas": [
-            "Eran hermanos",
-            "Jesús resucitó a uno de ellos"
+            "Él y sus hermanas eran amigos Jesús",
+            "Jesús lo resucitó"
         ],
         "niveles": ["medio"]
     },
@@ -609,10 +740,54 @@
         "id": 68,
         "personaje": "Viuda de Naín",
         "historia": "Jesús resucita a su hijo",
-        "emojis": ["👩","😭","⚰️","🏙️"],
+        "emojis": ["👩🏻‍🦳","😭","⚰️","👦🏻","🔄️","😄"],
         "pistas": [
             "Había perdido a su único hijo",
             "Jesús se compadeció de ella"
+        ],
+        "niveles": ["dificil"]
+    },
+    {
+        "id": 69,
+        "personaje": "María Magdalena",
+        "historia": "Liberada de siete demonios",
+        "emojis": ["👩🏻","7️⃣","👿","✨"],
+        "pistas": [
+            "Jesús la liberó de siete demonios",
+            "Fue una de las mujeres que acompañaron a Jesús"
+        ],
+        "niveles": ["facil"]
+    },
+    {
+        "id": 70,
+        "personaje": "Mateo",
+        "historia": "Recaudador de impuestos",
+        "emojis": ["🪑","👨🏻","✍🏻","🪙","💰"],
+        "pistas": [
+            "Trabajaba cobrando impuestos",
+            "Jesús lo invitó a seguirlo, y él lo dejó todo y lo siguió"
+        ],
+        "niveles": ["medio"]
+    },
+    {
+        "id": 71,
+        "personaje": "Judas Iscariote",
+        "historia": "La traición por dinero",
+        "emojis": ["👨🏻","3️⃣0️⃣","🪙","🤝","😘"],
+        "pistas": [
+            "Recibió dinero por entregar a Jesús",
+            "Lo identificó con un beso"
+        ],
+        "niveles": ["facil"]
+    },
+    {
+        "id": 72,
+        "personaje": "Zaqueo",
+        "historia": "Subido al árbol",
+        "emojis": ["🧔🏻‍♂️","💰","🌳","👀","🍽️","🏡"],
+        "pistas": [
+            "Era bajito",
+            "Era recaudador de impuestos"
         ],
         "niveles": ["medio"]
     },
@@ -620,29 +795,29 @@
         "id": 73,
         "personaje": "Esteban",
         "historia": "Esteban muere apedreado",
-        "emojis": ["🪨","🏛️","☁️","🙏"],
+        "emojis": ["🧔🏻","🗣️","👳🏻‍♂️","😡","🪨","☠️"],
         "pistas": [
             "Fue el primer cristiano que murió como mártir",
             "Pidió a Jehová que perdonara a sus enemigos"
         ],
-        "niveles": ["medio"]
+        "niveles": ["dificil"]
     },
     {
         "id": 74,
         "personaje": "Pablo",
         "historia": "Persigue a los cristianos",
-        "emojis": ["🏃‍♂️","⛓️","👥","⚔️"],
+        "emojis": ["😡", "📜", "🏹", "🩸", "👥", "⛓️"],
         "pistas": [
             "Perseguía a los seguidores de Jesús",
             "Más tarde se convirtió en cristiano"
         ],
-        "niveles": ["medio"]
+        "niveles": ["dificil"]
     },
     {
         "id": 75,
         "personaje": "Pablo",
         "historia": "Queda ciego",
-        "emojis": ["🌟","😇","🧑‍🦯","👀"],
+        "emojis": ["🧔🏻","💥","😇","🧑‍🦯"],
         "pistas": [
             "Una luz muy intensa lo dejó ciego",
             "Jesús le habló desde el cielo"
@@ -650,113 +825,46 @@
         "niveles": ["medio"]
     },
     {
-        "id": 82,
-        "personaje": "Áquila y Prisca",
-        "historia": "Fabricantes de tiendas",
-        "emojis": ["⛺","👩","👨","🏠"],
-        "pistas": [
-            "Eran matrimonio",
-            "Trabajaban haciendo tiendas"
-        ],
-        "niveles": ["medio"]
-    },
-    {
-        "id": 27,
-        "personaje": "Hija de Jefté",
-        "historia": "La hija de Jefté",
-        "emojis": ["👧","👨","🙏","🎶"],
-        "pistas": [
-            "Era hija única",
-            "Su padre había hecho un voto a Jehová"
-        ],
-        "niveles": ["medio"]
-    },
-
-    {
-        "id": 21,
-        "personaje": "Coré, Datán y Abiram",
-        "historia": "La rebelión contra Moisés",
-        "emojis": ["👨‍🦱","👨‍🦱","👨‍🦱","⚔️","🌍"],
-        "pistas": [
-            "Se rebelaron contra la autoridad de Moisés",
-            "Jehová castigó su rebelión"
-        ],
-        "niveles": ["dificil"]
-    },
-    {
-        "id": 30,
-        "personaje": "Samuel",
-        "historia": "Samuel escucha la llamada de Jehová",
-        "emojis": ["👦","🛏️","🌙","👂"],
-        "pistas": [
-            "Era un niño que servía en el tabernáculo",
-            "Escuchó una voz durante la noche"
-        ],
-        "niveles": ["medio"]
-    },
-    {
-        "id": 34,
-        "personaje": "David y Bat-seba",
-        "historia": "David y Bat-seba",
-        "emojis": ["👑","👩","🏠","👀"],
-        "pistas": [
-            "David cometió un grave pecado",
-            "El esposo de ella se llamaba Urías"
-        ],
-        "niveles": ["dificil"]
-    },
-    {
-        "id": 83,
-        "personaje": "Silas",
-        "historia": "Canta en prisión",
-        "emojis": ["⛓️","🎶","🌙","🚪"],
-        "pistas": [
-            "Estaba encarcelado junto con Pablo",
-            "Los dos estaban cantando alabanzas"
-        ],
-        "niveles": ["dificil"]
-    },
-    {
-        "id": 84,
-        "personaje": "Dorcas",
-        "historia": "Dorcas y sus buenas obras",
-        "emojis": ["🧵","👗","🛏️","😭","🙌"],
-        "pistas": [
-            "Era conocida por sus buenas obras",
-            "Pedro fue llamado cuando murió"
-        ],
-        "niveles": ["dificil"]
-    },
-    {
-        "id": 85,
-        "personaje": "Cornelio",
-        "historia": "Cornelio recibe una visión",
-        "emojis": ["🪖","😇","🏠","🙏","💧"],
-        "pistas": [
-            "Era oficial del ejército romano",
-            "Fue el primer gentil incircunciso que se hizo cristiano"
-        ],
-        "niveles": ["dificil"]
-    },
-    {
         "id": 76,
         "personaje": "Pablo",
-        "historia": "Encarcelado escribiendo cartas",
-        "emojis": ["⛓️","🏛️","📜","✍️"],
+        "historia": "Pablo sufriendo mientras predicaba",
+        "emojis": ["👴🏻", "⛵", "📜","✍️","💥","😖","⛓️"],
         "pistas": [
-            "Escribió cartas mientras estaba encarcelado",
-            "Muchas de sus cartas llegaron a formar parte de las Escrituras"
+            "Le dieron más de una paliza al punto de darlo por muerto",
+            "Escribió cartas mientras estaba encarcelado"
         ],
         "niveles": ["dificil"]
+    },
+    {
+        "id": 77,
+        "personaje": "Timoteo",
+        "historia": "Colaborador de Pablo",
+        "emojis": ["👦🏻","👵🏻","👩🏻","📜","🙏🏻","🧳"],
+        "pistas": [
+            "Era un joven colaborador de Pablo",
+            "Pablo lo consideraba como un hijo"
+        ],
+        "niveles": ["medio"]
     },
     {
         "id": 78,
         "personaje": "Felipe",
         "historia": "El carro del etíope",
-        "emojis": ["🏃‍♂️","🐎","📖","💧"],
+        "emojis": ["🏃‍♂️","🐎","📖","👳🏾","💧"],
         "pistas": [
             "Se acercó corriendo a un carro",
             "Le explicó las Escrituras a un funcionario etíope"
+        ],
+        "niveles": ["dificil"]
+    }, 
+    {
+        "id": 79,
+        "personaje": "Apolos",
+        "historia": "Apolos enseña con entusiasmo",
+        "emojis": ["👨🏻","📖","🗣️","💧","🌱"],
+        "pistas": [
+            "Era un hombre elocuente y conocía bien las Escrituras",
+            "Áquila y Prisca le explicaron el camino de Dios con más exactitud"
         ],
         "niveles": ["dificil"]
     },
@@ -767,7 +875,7 @@
         "emojis": ["😴","🪟","🏢","⬇️","🤗"],
         "pistas": [
             "Se quedó dormido mientras Pablo hablaba",
-            "Pedro tuvo que intervenir después"
+            "Pablo lo tuvo que resucitar"
         ],
         "niveles": ["dificil"]
     },
@@ -775,7 +883,7 @@
         "id": 81,
         "personaje": "Lidia",
         "historia": "Lidia junto al río",
-        "emojis": ["🟣","🧵","💧","👩","🗣️"],
+        "emojis": ["👩🏻","🟣","🧵","🏠","💧","👩‍👧‍👦"],
         "pistas": [
             "Vendía productos de color púrpura",
             "Escuchó a Pablo junto a un río"
@@ -783,102 +891,168 @@
         "niveles": ["dificil"]
     },
     {
-        "id": 37,
-        "personaje": "Mefibóset",
-        "historia": "Mefibóset y David",
-        "emojis": ["👑","👨‍🦱","🪑","🍽️"],
+        "id": 82,
+        "personaje": "Áquila y Prisca",
+        "historia": "Fabricantes de tiendas",
+        "emojis": ["👩🏻","👨🏻","🛠️","⛺"],
         "pistas": [
-            "Era hijo de Jonatán",
-            "David le mostró bondad y comió en su mesa"
+            "Eran matrimonio",
+            "Trabajaban haciendo tiendas"
+        ],
+        "niveles": ["medio"]
+    },
+    {
+        "id": 83,
+        "personaje": "Silas",
+        "historia": "Canta en prisión",
+        "emojis": ["🧑🏻","⛓️","👴🏻","🎶","💥","🚪"],
+        "pistas": [
+            "Estaba encarcelado junto con Pablo",
+            "Los dos estaban cantando cuando un gran terremoto sacudió la prisión y abrió las puertas"
         ],
         "niveles": ["dificil"]
     },
     {
-        "id": 43,
-        "personaje": "Elías",
-        "historia": "Elías sube al cielo",
-        "emojis": ["🧔‍♂️","🌪️","⬆️","🔥"],
+        "id": 84,
+        "personaje": "Dorcas",
+        "historia": "Dorcas y sus buenas obras",
+        "emojis": ["👩🏻", "🧵", "👗", "😭", "☠️", "🙏", "🚶‍♀️"],
         "pistas": [
-            "No murió de la manera habitual",
-            "Un viento fuerte se lo llevó"
+            "Hacía túnicas y vestidos para ayudar a las viudas y a los necesitados",
+            "Pedro fue a verla cuando murió y la resucitó"
         ],
         "niveles": ["dificil"]
     },
     {
-        "id": 46,
-        "personaje": "Atalía",
-        "historia": "Atalía intenta acabar con la descendencia real",
-        "emojis": ["👑","👶","🗡️","🏛️"],
+        "id": 85,
+        "personaje": "Cornelio",
+        "historia": "Cornelio recibe una visión",
+        "emojis": ["🪖", "🏛️", "💰", "😇", "📜", "🐗", "💧"],
         "pistas": [
-            "Era una reina muy malvada",
-            "Intentó eliminar a la descendencia real"
+            "Era oficial del ejército romano",
+            "Fue el primer gentil incircunciso, junto con los de su casa, que se hizo cristiano"
+        ],
+        "niveles": ["dificil"]
+    }, 
+    {
+        "id": 86,
+        "personaje": "Jezabel",
+        "historia": "Muerte",
+        "emojis": ["👸🏻","💅🏻","👿","🪟","⬇️"],
+        "pistas": [
+            "Era una reina muy mala",
+            "Se cayó de una ventana y murió"
+        ],
+        "niveles": ["medio"]
+    },
+    {
+        "id": 87,
+        "personaje": "Pedro",
+        "historia": "Le corta la oreja a Malco",
+        "emojis": ["🧔🏻‍♂️","😠","🗡️","👂🏻"],
+        "pistas": [
+            "Estaba con Jesús cuando Judas lo traicionó",
+            "Le cortó la oreja al esclavo del sumo sacerdote"
+        ],
+        "niveles": ["medio"]
+    },
+    {
+        "id": 88,
+        "personaje": "Balaam",
+        "historia": "La burra de Balaam",
+        "emojis": ["🧑🏻","💰","🫏","🗣️","😇","⚔️"],
+        "pistas": [
+            "Jehová no permitió que maldijera a su pueblo",
+            "La burra en la que iba montado le habló"
+        ],
+        "niveles": ["medio"]
+    },
+    {
+        "id": 89,
+        "personaje": "Eliseo",
+        "historia": "Las osas que atacaron a los muchachos que se metían con él",
+        "emojis": ["👨🏻","🐻","👦🏻","🧒🏻"],
+        "pistas": [
+            "Un grupo de muchachos se burló de su calvicie en el camino a Betel",
+            "Dos osas salieron del bosque y atacaron a los que le insultaban"
+        ],
+        "niveles": ["medio"]
+    },
+    {
+        "id": 90,
+        "personaje": "Jonás",
+        "historia": "Huye de Nínive y se lo traga un pez",
+        "emojis": ["⛵","🌧️","🧔🏻‍♂️","🐋","🗣️","🏙️"],
+        "pistas": [
+            "Trató de huir en un barco para no ir a predicar a una ciudad enemiga",
+            "Pasó tres días dentro de un gran pez"
+        ],
+        "niveles": ["facil"]
+    },
+    {
+        "id": 91,
+        "personaje": "Reina de Saba",
+        "historia": "La visita a Salomón",
+        "emojis": ["👸🏻","🐪","💰","💎","🪵","🤴🏻"],
+        "pistas": [
+            "Viajó desde una tierra muy lejana con una gran caravana de camellos",
+            "Llevó una enorme cantidad de oro, piedras preciosas y especias para comprobar la sabiduría de un rey"
+        ],
+        "niveles": ["medio"]
+    },
+    {
+        "id": 92,
+        "personaje": "Isaías",
+        "historia": "Las profecías del paraíso restaurado",
+        "emojis": ["📜","🐺","🐑","👶🏻","🐍","💧","🏜️"],
+        "pistas": [
+            "Describió cómo sería vivir en el paraíso",
+            "Escribió:'El lobo y el cordero comerán juntos[...]'"
         ],
         "niveles": ["dificil"]
     },
     {
-        "id": 50,
-        "personaje": "Uzías",
-        "historia": "Uzías ofrece incienso",
-        "emojis": ["👑","🔥","🙏","😷"],
+        "id": 93,
+        "personaje": "Job",
+        "historia": "Satanás pone a prueba su integridad",
+        "emojis": ["🧔🏻", "😈", "🌪️", "1️⃣0️⃣", "☠️", "😫", "🩹"],
         "pistas": [
-            "Entró en el templo para ofrecer incienso",
-            "Jehová lo castigó con lepra"
+            "La Biblia dice de él que fue un hombre íntegro y temeroso de Dios.",
+            "Era un hombre muy rico que lo perdió todo en un solo día, incluidos sus diez hijos, y sufrió una terrible enfermedad en la piel"
+        ],
+        "niveles": ["medio"]
+    },
+    {
+        "id": 94,
+        "personaje": "Josué",
+        "historia": "Conquista de Jericó",
+        "emojis": ["🧔🏻","7️⃣","🔄️","🎺","🗣️","🧱"],
+        "pistas": [
+            "Sucedió al Moisés y guió al pueblo a cruzar el río Jordán hacia la Tierra Prometida.",
+            "Dio siete vueltas a una ciudad fortificada haciendo sonar trompetas hasta que los muros se derrumbaron"
+        ],
+        "niveles": ["medio"]
+    },
+    {
+        "id": 95,
+        "personaje": "Rey Herodes",
+        "historia": "La matanza de los niños menores de dos años",
+        "emojis": ["👑","😠","☠️","🗡️","👶🏻","🏘️"],
+        "pistas": [
+            "Fue contemporáneo de Jesús",
+            "Ordenó una cruel masacre de bebés varones en Belén y sus alrededores"
         ],
         "niveles": ["dificil"]
     },
     {
-        "id": 51,
-        "personaje": "Oseas",
-        "historia": "La familia de Oseas",
-        "emojis": ["👨‍🦱","👩","👶","👶","❤️"],
+        "id": 96,
+        "personaje": "José",
+        "historia": "La interpretación de los sueños del faraón",
+        "emojis": ["👑", "💤", "👁️", "7️⃣", "🐄", "🌾", "📉"],
         "pistas": [
-            "Jehová utilizó su vida familiar para transmitir un mensaje",
-            "Tuvo hijos con nombres simbólicos"
+            "Lo sacaron de la cárcel para presentarse ante el gobernante de Egipto",
+            "Interpretó un sueño sobre siete vacas flacas que devoraban a siete vacas gordas"
         ],
-        "niveles": ["dificil"]
-    },
-    {
-        "id": 53,
-        "personaje": "Jeremías",
-        "historia": "El rey quema el rollo",
-        "emojis": ["👨‍🦱","📜","✂️","🔥","👑"],
-        "pistas": [
-            "Escribió un mensaje en un rollo",
-            "El rey fue cortándolo y quemándolo"
-        ],
-        "niveles": ["dificil"]
-    },
-    {
-        "id": 56,
-        "personaje": "Nabucodonosor",
-        "historia": "Viviendo como un animal",
-        "emojis": ["👑","🌾","🐂","⬇️"],
-        "pistas": [
-            "Fue humillado por su orgullo",
-            "Vivió como los animales durante un tiempo"
-        ],
-        "niveles": ["dificil"]
-    },
-    {
-        "id": 77,
-        "personaje": "Timoteo",
-        "historia": "Colaborador de Pablo",
-        "emojis": ["👦","👨‍🦱","📜","⛪"],
-        "pistas": [
-            "Era un joven colaborador de Pablo",
-            "Pablo lo consideraba como un hijo"
-        ],
-        "niveles": ["dificil"]
-    },
-    {
-        "id": 79,
-        "personaje": "Apolos",
-        "historia": "Apolos enseña con entusiasmo",
-        "emojis": ["👨‍🦱","📖","🗣️","🔥"],
-        "pistas": [
-            "Era un hombre elocuente y conocía bien las Escrituras",
-            "Áquila y Prisca le explicaron el camino de Dios con más exactitud"
-        ],
-        "niveles": ["dificil"]
+        "niveles": ["medio"]
     }
 ]

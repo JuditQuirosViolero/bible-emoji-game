@@ -23,7 +23,7 @@ const GameModeSelector = ({
                     }`}
                     onClick={() => onSelect("nino")}
                 >
-                    👦 Niño
+                    👦🏻 Niño
                 </button>
 
                 <button
@@ -35,7 +35,7 @@ const GameModeSelector = ({
                     }`}
                     onClick={() => onSelect("adulto")}
                 >
-                    🧑 Adulto
+                    👨🏻 Adulto
                 </button>
             </div>
         </div>

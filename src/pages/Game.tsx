@@ -18,7 +18,10 @@ const Game = () => {
   //Inicialización de todo
   const location = useLocation();
   const navigate = useNavigate();
-  
+
+  const [mostrarConfirmacionSalir, setMostrarConfirmacionSalir] =
+    useState(false);
+
   const volverAlInicio = () => {
     navigate("/");
   };
@@ -40,7 +43,6 @@ const Game = () => {
   const registrarPuntosSolo = (puntosRonda: number) => {
     setPuntosSolo((actual) => actual + puntosRonda);
   };
-
 
   // Obtener personaje inicial
   useEffect(() => {
@@ -162,16 +164,45 @@ const Game = () => {
           )}
 
           <div className="game-modal-buttons mt-3">
-            <button className="btn-game-primary" onClick={volverAlInicio}>
+            <SkipCharacterButton config={config} onSkip={setPersonaje} />
+            <button
+              className="btn-game-primary"
+              onClick={() => setMostrarConfirmacionSalir(true)}
+            >
               Volver al inicio
             </button>
-
-            <SkipCharacterButton config={config} onSkip={setPersonaje} />
           </div>
         </section>
       </main>
 
       <Footer />
+
+      {/* MODAL CONFIRMACIÓN DE SALIDA AL MENÚ PRINCIPAL*/}
+      {mostrarConfirmacionSalir && (
+        <div className="game-modal-overlay">
+          <div className="game-modal">
+            <h2>¿Volver al inicio?</h2>
+
+            <p>
+              Al volver al inicio saldrás de esta partida y ya no podrás volver
+              a recuperarla.
+            </p>
+
+            <div className="game-modal-buttons">
+              <button
+                className="btn-game-secondary"
+                onClick={() => setMostrarConfirmacionSalir(false)}
+              >
+                Cancelar
+              </button>
+
+              <button className="btn-game-primary" onClick={volverAlInicio}>
+                Volver al inicio
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
 
       {/* MODAL FINAL DE GRUPOS */}
       {partidaTerminada && config.modo === "grupos" && (
